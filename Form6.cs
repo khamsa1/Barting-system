@@ -10,24 +10,15 @@ using System.Windows.Forms;
 
 namespace Barting_system
 {
-    public partial class Form4 : Form
+    public partial class Form6 : Form
     {
-        public Form4()
+        public Form6()
         {
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-            Form1 f1 = new Form1();
-            f1.ShowDialog();
-            f1 = null;
 
         }
     }

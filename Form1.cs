@@ -92,12 +92,37 @@ namespace Barting_system
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            Form7 f7 = new Form7();
+            f7.ShowDialog();
+            f7 = null;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Form5 f5 = new Form5();
+            f5.ShowDialog();
+            f5 = null;
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form6 f6 = new Form6();
+            f6.ShowDialog();
+            f6 = null;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form8 f8 = new Form8();
+            f8.ShowDialog();
+            f8 = null;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form9 form9 = new Form9();  
+            form9.ShowDialog();
+            form9 = null;
         }
     }
 }
